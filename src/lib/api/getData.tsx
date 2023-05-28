@@ -1,3 +1,5 @@
+import 'server-only';
+
 const api_key = process.env.OPEN_WEATHER_KEY;
 
 export type weatherData = {
